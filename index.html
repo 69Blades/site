@@ -4,137 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
-    
-    <!-- Styles -->
+    <meta name="description" content="Welcome to my personal website.">
+
+    <!-- Basic styles -->
     <style>
-        /* Reset some default styles */
-        * {
-            box-sizing: border-box;
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-        }
-
-        body {
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f7f7f7;
+            background: #f4f4f4;
             color: #333;
-            line-height: 1.6;
         }
-
         header {
-            background-color: #4a90e2;
-            color: white;
-            padding: 20px 0;
+            background: #444;
+            color: #fff;
+            padding: 20px;
             text-align: center;
-            opacity: 0;
-            animation: fadeIn 1.5s forwards;
         }
-
-        header h1 {
-            font-size: 2.5em;
-        }
-
-        nav {
-            margin-top: 10px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: #ffeb3b;
-        }
-
         main {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-
-        section {
-            margin-bottom: 40px;
-        }
-
-        section h2 {
-            margin-bottom: 15px;
-            color: #4a90e2;
-        }
-
         footer {
-            background-color: #333;
-            color: white;
             text-align: center;
-            padding: 15px 0;
+            padding: 10px;
+            background: #eee;
+            margin-top: 20px;
         }
-
-        /* Button example */
-        .btn {
-            display: inline-block;
-            background-color: #4a90e2;
-            color: white;
-            padding: 10px 20px;
+        a {
+            color: #0066cc;
             text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s, transform 0.2s;
-        }
-
-        .btn:hover {
-            background-color: #357abd;
-            transform: scale(1.05);
-        }
-
-        /* Fade-in animation */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(-20px); }
-            to { opacity: 1; transform: translateY(0); }
         }
     </style>
 
-    <!-- Umami Analytics (optional) -->
-    <!--
-    <script async defer src="https://YOUR-UMAMI-SERVER.com/script.js" data-website-id="YOUR-WEBSITE-ID"></script>
-    -->
+    <!-- GoatCounter Analytics -->
+    <script async data-goatcounter="https://69blades.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Personal Website</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <h1>Welcome to My Website</h1>
     </header>
-
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hi! I’m a web enthusiast experimenting with GitHub Pages. I love coding, building projects, and learning new technologies. This website is a simple example of a site you can host for free.</p>
-        </section>
+        <p>Hello! This is my personal website. I built it to share cool stuff, experiments, and maybe a few tutorials.</p>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>Here are a few of the projects I’ve worked on:</p>
-            <ul>
-                <li>Project A – A cool web tool</li>
-                <li>Project B – Another fun experiment</li>
-                <li>Project C – Learning JavaScript</li>
-            </ul>
-            <a href="#contact" class="btn">Get in Touch</a>
-        </section>
+        <h2>Contact Me</h2>
+        <p>You can reach me at <a href="mailto:ncottonfarm@gmail.com">ncottonfarm@gmail.com</a>.</p>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>You can reach me via email at <a href="mailto:ncottonfarm@gmail.com">ncottonfarm@gmail.com</a>.</p>
-        </section>
+        <h2>About This Site</h2>
+        <p>This site is hosted on GitHub Pages and uses GoatCounter for visitor tracking. Everything here is simple, hand-crafted, and made with care.</p>
     </main>
-
     <footer>
-        <p>© 2026 My Personal Website. All rights reserved.</p>
+        &copy; 2026 My Personal Website
     </footer>
 </body>
 </html>
